@@ -73,3 +73,6 @@ Below is an approximate list of MBTI types, ranked from those more inclined towa
 
 ### Disclaimer ⚠️
 This list is based on general trends and tendencies observed in MBTI types. However, career preferences are highly individual and can vary widely based on personal experiences, values, and opportunities.
+
+![Screenshot_24](https://github.com/user-attachments/assets/b9d66376-615c-4457-8939-1903ed4f4716)
+![Screenshot_23](https://github.com/user-attachments/assets/b24e293d-20ea-4e3c-a0b9-4ded47edaea5)
