@@ -66,8 +66,8 @@ history = model.fit(X_train, {'mbti_output': y_train_mbti, 'career_output': y_tr
 
 # model evaluation
 loss, mbti_accuracy, career_accuracy = model.evaluate(X_test, {'mbti_output': y_test_mbti, 'career_output': y_test_career})
-print(f"Точность модели на тестовой выборке (MBTI): {mbti_accuracy * 100:.2f}%")
-print(f"Точность модели на тестовой выборке (карьерная склонность): {career_accuracy * 100:.2f}%")
+print(f"The accuracy of the model in the test sample (MBTI): {mbti_accuracy * 100:.2f}%")
+print(f"The accuracy of the model in the test sample (career inclination): {career_accuracy * 100:.2f}%")
 
 # prediction
 def predict_mbti_and_career(student_data):
