@@ -62,10 +62,11 @@ plt.title('Distribution of clusters by career ambitions')
 plt.xlabel('PC1')
 plt.ylabel('PC2')
 plt.legend(title='Clusters and ambitions')
+# Save the plot as an image
+plt.savefig('plot.png')
+# Show the plot in the notebook
 plt.show()
-plt.savefig('career_ambitions_clusters.png')
-# Show the plot
-plt.show()
+
 # Output of the average level of career ambitions for each cluster
 for cluster_id, group in clustered_data.groupby('Cluster Name'):
     mean_ambition = group['Career Inclination Assigned'].mean()
